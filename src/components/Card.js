@@ -1,10 +1,14 @@
-import portfolio from '../assets/images/1.jpg';
+import Image from './Image';
+import Main from './Main';
+import Footer from './Footer';
+import '../style.css';
 
 export function Card() {
   return (
-    <div>
-      <img src={portfolio} alt='portfolio' />
+    <div className='card-container'>
+      <Image />
+      <Main />
+      <Footer />
     </div>
   );
 }
-
