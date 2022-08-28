@@ -6,13 +6,13 @@ export default function Main() {
   return (
     <div className='main-container'>
       <div className='contact'>
-        <h1 className='name'>Laura Smith</h1>
+        <h1 className='name'>John Doe</h1>
         <h4 className='job-title'>Frontend Developer</h4>
-        <h5 className='website'>laurasmith.website</h5>
+        <h5 className='website'>johnDoe.website</h5>
       </div>
 
       <div className='mail'>
-        <a href='sluo5991@gmail.com'>
+        <a href='johndoe@gmail.com'>
           <FontAwesomeIcon className='fa-icon' icon={faEnvelope} />
           Email
         </a>
