@@ -13,6 +13,12 @@ body {
   /* Center cards */
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Make card's width 25rem */
