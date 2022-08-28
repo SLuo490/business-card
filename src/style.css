@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #23252c;
   height: 100vh;
 }
 
@@ -24,6 +25,7 @@ ul {
 /* Make card's width 25rem */
 .card-container {
   width: 25rem;
+  background-color: #1a1b21;
 }
 
 .portfolio-img {
