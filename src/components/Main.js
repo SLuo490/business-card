@@ -11,10 +11,12 @@ export default function Main() {
         <h5 className='website'>laurasmith.website</h5>
       </div>
 
-      <a href='sluo5991@gmail.com'>
-        <FontAwesomeIcon className='fa-icon' icon={faEnvelope} />
-        Email
-      </a>
+      <div className='mail'>
+        <a href='sluo5991@gmail.com'>
+          <FontAwesomeIcon className='fa-icon' icon={faEnvelope} />
+          Email
+        </a>
+      </div>
 
       <div className='info'>
         <div className='about'>
