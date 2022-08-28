@@ -5,9 +5,11 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 export default function Main() {
   return (
     <div className='main-container'>
-      <h1>Laura Smith</h1>
-      <h2>Frontend Developer</h2>
-      <h3>laurasmith.website</h3>
+      <div className='contact'>
+        <h1 className='name'>Laura Smith</h1>
+        <h4 className='job-title'>Frontend Developer</h4>
+        <h5 className='website'>laurasmith.website</h5>
+      </div>
 
       <a href='sluo5991@gmail.com'>
         <FontAwesomeIcon className='fa-icon' icon={faEnvelope} />
