@@ -4,7 +4,7 @@ import '../style.css';
 export default function Image() {
   return (
     <div>
-      <img src={portfolio} alt='portfolio' />
+      <img className='portfolio-img' src={portfolio} alt='portfolio' />
     </div>
   );
 }

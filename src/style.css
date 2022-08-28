@@ -5,7 +5,23 @@
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  /* Center cards */
+  display: flex;
+  justify-content: center;
+}
+
+/* Make card's width 25rem */
+.card-container {
+  width: 25rem;
+}
+
+.portfolio-img {
+  width: 30rem;
 }
 
 .fa-icon {
