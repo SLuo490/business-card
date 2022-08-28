@@ -21,6 +21,7 @@ body {
 
 ul {
   list-style: none;
+  margin: 0 auto;
 }
 
 /* Make card's width 25rem */
@@ -95,8 +96,23 @@ ul {
 
 .footer-container {
   background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fa-icon {
+.footer-container > ul {
+  display: flex;
+}
+
+.footer-container > ul > li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+li > a {
   color: black;
+  background: #918e9b;
+  padding: 5px;
 }
